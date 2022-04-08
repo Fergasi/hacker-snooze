@@ -1,0 +1,78 @@
+#header{
+    top: 100;
+    left: 100;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 20vh;
+    padding: 10px;
+}
+
+#logo{
+    height: 95%;
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+
+.table-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    height: 9vh;
+    padding: 1vh;
+    padding-top: 2.5vh;
+    background: #ff6600;
+    font-family: 'Poppins', sans-serif;
+    font-style: oblique;
+}
+
+#heading {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.offcanvas-body div{
+    padding-top: 3%;
+}
+
+.offcanvas-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff6600;
+    height: 10%;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+    min-width: max-content;
+    border-radius: 5vw;
+    max-width: fit-content;
+}
+
+.butty{
+    flex-direction: column;
+    text-align:center;
+}
+
+.commentTimestamp{
+    font-size: x-small;
+    font-weight: bold;
+    color: green;
+}
+
+.comment-by{
+    font-size: smaller;
+    font-weight: bold;
+}
